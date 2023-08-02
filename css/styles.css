@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 4px;
+}
+h1 {
+  word-wrap: break-word;
+}
+nav {
+  display: flex;
+  align-self: flex-end;
+  gap: 15%;
+  padding-right: 7%;
+  padding-top: 3%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.blog {
+  flex-grow: 1;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.blog > h1 {
+  margin-bottom: 20px;
+}
+.blog-a {
+  border-bottom: solid gainsboro;
+  padding: 2% 0;
+}
+.blog-color {
+  color: gray;
+}
+.logo {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.logo-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 9%;
+}
+.logo-blog > img {
+  width: 40%;
+}
+.logo-text {
+  margin: 10px 0;
+  width: 100%;
+  font-size: 80%;
+  text-align: center;
+}
+.work {
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+}
+.work-a {
+  border-bottom: solid gainsboro;
+  display: flex;
+  padding: 5% 0;
+  gap: 1%;
+}
+.work-a > img {
+  display: flex;
+  object-fit: cover;
+  flex: 1 1 15%;
+  min-width: 150px;
+  width: 15vw;
+  height: 15vw;
+}
+.work-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 70%;
+  min-width: 150px;
+}
+.number {
+  border-radius: 45%;
+  padding: 0 10px;
+  color: white;
+  background-color: darkblue;
+}
+.keyword {
+  color: gray;
+  padding-left: 3%;
+}
+.con1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name {
+  display: flex;
+  width: 80%;
+  gap: 5%;
+  padding: 5% 0;
+  align-items: center;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 70%;
+  min-width: 150px;
+}
+.name > img {
+  width: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  border-radius: 50%;
+  border: solid black;
+  object-fit: cover;
+  flex: 1 1 15%;
+}
+.cont > a {
+  background-color: red;
+  color: white;
+  padding: 1%;
+  display: flex;
+  width: fit-content;
+}
+.cont > p {
+  padding: 5% 0;
+  width: 80%;
+}
+.blog-t {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+.blog-t > a {
+  color: blue;
+}
+.con2 {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  align-items: center;
+  width: 100%;
+}
+.blog-p {
+  display: flex;
+  gap: 5%;
+}
+.con2 > .blog > .blog-a {
+  border-bottom: none;
+}
+.blog-p > .blog-a > h4 {
+  font-weight: normal;
+}
+.blog-p > .blog-a > h4 > .blog-color {
+  color: black;
+  font-weight: normal;
+}
+.blog-p > .blog-a {
+  border: solid none;
+  background-color: white;
+  padding: 1%;
+}
+.con3 {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 3% 0;
+}
+.con3 > .work {
+  width: 100%;
+}
+.con3 > .work > .work-a {
+  padding: 1% 0;
+}
